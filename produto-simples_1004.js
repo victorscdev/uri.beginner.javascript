@@ -34,5 +34,5 @@ console.log( 'PROD = ' + PROD );
 
 /******************* Help *******************/
 /*
-    
+    A função parseInt() analisa um argumento string e retorna um inteiro na base especificada.
 */

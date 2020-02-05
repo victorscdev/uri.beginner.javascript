@@ -1,22 +1,21 @@
 /******************* Descrição do Problema *******************/
 /*
-    Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
+    Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente.   
 
     Entrada
     O arquivo de entrada contém 2 valores inteiros.
 
     Saída
-    Imprima a variável SOMA com todas as letras maiúsculas, com um espaço em branco antes e depois da igualdade seguido pelo valor correspondente à soma de A e B. Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
+    Imprima a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem:
 */
-
 
 /* Variaveis */
 var A = parseInt( lines.shift() );
 var B = parseInt( lines.shift() );
-var soma = A + B;
+var PROD = A * B;
 
 /* Print */
-console.log( 'SOMA = ' + soma );
+console.log( 'PROD = ' + PROD );
 
 
 /******************* Observações *******************/
@@ -28,12 +27,12 @@ console.log( 'SOMA = ' + soma );
 /******************* Logica *******************/
 /*
     Crie uma duas variaveis "A" e "B" para "simular" uma entrada de valor para os mesmos, onde usaremos o "parseInt()" para, transformar o valor recebido em valor decimal e, "lines.shift()" para simular a entrada desse valor;
-    Crie uma varivel "X" para somar os valores recebidos nas variaveis acima. Ex: A + B;
+    Crie uma varivel "PROD" para Multiplicar os valores recebidos das variaveis acima. Ex: A * B;
     Printe com "console.log()", para mostrar seus calculos.
 */
 
 
 /******************* Help *******************/
 /*
-    A função parseInt() analisa um argumento string e retorna um inteiro na base especificada.
+    
 */

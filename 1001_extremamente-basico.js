@@ -27,6 +27,7 @@ console.log( "X = " + X );
 /******************* Logica *******************/
 /*
     Crie uma duas variaveis "A" e "B" para "simular" uma entrada de valor para os mesmos, onde usaremos o "parseInt()" para, transformar o valor recebido em valor decimal.
+
     Crie uma varivel "X" para somar os valores recebidos nas variaveis acima. Ex: A + B;
     Printe com "console.log()", para mostrar seus calculos.
 */

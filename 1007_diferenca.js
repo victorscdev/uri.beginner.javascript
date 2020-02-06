@@ -30,7 +30,9 @@ console.log( 'DIFERENCA = ' + DIFERENCA );
 /******************* Logica *******************/
 /*
     Crie quatro variaveis "A", "B", "C" e "D" para receber uma "simulação" de entrada de informação. Onde, "parseInt()" será utilizado para transformar a informação recebida pelas variaveis em numeros inteiros.
+
     Crie uma variavel "DIFERENCA" para calcular a diferencia entre "A * B" menos "C * D".
+
     Utilize o "console.log()" para, mostrar os calculos. 
 */
 

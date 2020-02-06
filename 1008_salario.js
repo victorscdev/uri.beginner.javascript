@@ -29,15 +29,20 @@ console.log( 'SALARY = U$ ' + salarioFuncionario );
 /******************* Logica *******************/
 /*
     Crie uma variavel "numeroFuncionario" para "simular" uma entrada valor pelo o usuario utilizando "lines.shift()". Onde, recebe o numero do funcionario;
+
     Crie uma variavel "horasTrabalhadas" para "simular" uma entrada valor pelo o usuario utilizando "lines.shift()". Onde, recebe as horas que o funcionario trabalhou no mes;
+
     Crie uma variavel "valorHoraTrabalhada" para "simular" uma entrada valor pelo o usuario utilizando "lines.shift()" e "parseFloat()" para transformar o valor recebido em numero decimal. Onde, recebe o valor da hora trabalhada;
-    Crie uma variavel "salarioFuncionario" para calcular as horas trabalhadas do funcionario vezes o valor da hora trabalhada. Onde, se utilizará "parseFloat()" para transformar todo o valor em um numero decimal e, "toFixed()" para determinar quantas casas depois da "," será mostrada.
+
+    Crie uma variavel "salarioFuncionario" para calcular as horas trabalhadas do funcionario vezes o valor da hora trabalhada. Onde, se utilizará "parseFloat()" para transformar todo o valor em um numero decimal e, "toFixed()" para determinar quantas casas depois da "," será mostrada;
+
     Utilize o "console.log()" para, mostrar os calculos. 
 */
 
 
 /******************* Help *******************/
 /*
-    A função "parseFloat()" analisa um argumento string e retorna um número de ponto flutuante.
+    A função "parseFloat()" analisa um argumento string e retorna um número de ponto flutuante;
+
     O método "toFixed()" formata um número utilizando notação de ponto fixo.
 */

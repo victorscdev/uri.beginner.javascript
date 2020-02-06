@@ -27,7 +27,9 @@ console.log( 'MEDIA = ' + MEDIA );
 /******************* Logica *******************/
 /*
     Crie duas variaveis "A" e "B" para "simular" a entrada de informação do usuario. Onde, "lines.shift()" é utilizado para a simulação de entrada de informação e, "parseFloat()" para transformar toda a informação numerica em decimal.
+
     Crie uma variavel "MEDIA". Onde, "parseFloat()" será utilizado para transformar a informação em decimal. Será calculado as variaveis "A e B" vezes os seus respectivos pesos, depois calcular "A + B" dividido pela soma do peso (11). Usar "toFixed()" para indicar quantos numeros depois da "," será mostrado.
+
     Utilize o "console.log()" para, mostrar os calculos. 
 */
 
@@ -35,5 +37,6 @@ console.log( 'MEDIA = ' + MEDIA );
 /******************* Help *******************/
 /*
     A função "parseFloat()" analisa um argumento string e retorna um número de ponto flutuante.
+
     O método "toFixed()" formata um número utilizando notação de ponto fixo.
 */

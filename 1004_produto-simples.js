@@ -27,7 +27,9 @@ console.log( 'PROD = ' + PROD );
 /******************* Logica *******************/
 /*
     Crie uma duas variaveis "A" e "B" para "simular" uma entrada de valor para os mesmos, onde usaremos o "parseInt()" para, transformar o valor recebido em valor decimal e, "lines.shift()" para simular a entrada desse valor;
+
     Crie uma varivel "PROD" para Multiplicar os valores recebidos das variaveis acima. Ex: A * B;
+
     Printe com "console.log()", para mostrar seus calculos.
 */
 

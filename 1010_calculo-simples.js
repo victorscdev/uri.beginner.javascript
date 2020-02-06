@@ -30,7 +30,7 @@ console.log( 'VALOR A PAGAR: R$ ' + total );
 /*
     No URI quando usamos javascript deve-se "simular" a entrada do usuário, por isso, não use o método prompt(). sempre use lines.shift() para "simular" a entrada do usuário.
 
-    Neste cenario, usaremos "split()" para pegar todo o valor enviado pelo usuario e transformar ele em uma array.
+    Neste cenario, usaremos "split()" para pegar todo o valor enviado pelo usuario e transformar ele em uma array (Nota: dentro "split(), voce tera que separar as os valores recebidor com espaço. Ex: .split(" ");").
 */
 
 

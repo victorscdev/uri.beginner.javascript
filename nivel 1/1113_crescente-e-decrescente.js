@@ -11,20 +11,25 @@
     Para cada caso de teste imprima “Crescente”, caso os valores tenham sido digitados na ordem crescente, caso contrário imprima a mensagem “Decrescente”.
 
 /* Variaveis */
-var prompt = lines.shift().split( ' ' ); 
-var X = parseInt( prompt[ 0 ] );
-var Y = parseInt( prompt[ 1 ] );
+var lines = [ '5 4', '7 2', '3 8', '2 2' ]
+var XY = lines.shift().split( ' ' );
+var X = parseInt( XY[ 0 ] );
+var Y = parseInt( XY[ 1 ] );
 
 while ( X != Y ) {
+    printDescIncres( X, Y );
 
-    if ( X > Y ) { console.log( 'Decrescente' ); }
-    else {console.log( 'Crescente' ); }
-
-    X = parseInt( prompt[ 0 ] );
-    Y = parseInt( prompt[ 1 ] );
-
-
+    XY = lines.shift().split( ' ' );
+    X = parseInt( XY[ 0 ] );
+    Y = parseInt( XY[ 1 ] );
 }
+
+
+function printDescIncres( X, Y ) {
+    if( X > Y ) console.log( 'Decrescente' );
+    else { console.log( 'Crescente' ) }
+}
+
 
 
 /******************* Observações *******************/

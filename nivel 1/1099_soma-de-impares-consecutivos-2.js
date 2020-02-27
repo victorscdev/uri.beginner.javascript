@@ -11,26 +11,27 @@
     Imprima a soma de todos valores ímpares entre X e Y.
 
 /* Variaveis */
-var prompt = lines.shift().split( ' ' );
-var N = parseInt( lines.shift());
+var line = lines.shift().split( ' ' )
+var N = parseInt( lines.shift() );
+var X = parseInt( line[ 0 ] );
+var Y = parseInt( line[ 1 ] );
 var soma;
 
 for ( let i = 0; i < N; i++ ) {
     soma = 0;
-    var X = parseInt( prompt[ 0 ] );
-    var Y = parseInt( prompt[ 1 ] );
     
     if ( Y > X ) {
-        for (let j = X+1; j < Y; j++) {
-            if (j % 2 != 0) soma += j;
+        for ( let j = X + 1; j < Y; j++ ) {
+            if ( j % 2 != 0 ) soma += j;
         }
     } else {
-        for (let j = Y+1; j < X; j++) {
-            if (j % 2 != 0) soma += j;
+        for ( let j = Y + 1; j < X; j++ ) {
+            if ( j % 2 != 0 ) soma += j;
         }
     }
-    
+
     console.log(soma);
+
 }
 
 

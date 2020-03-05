@@ -1,0 +1,23 @@
+
+
+/******************* Descrição do Problema *******************/
+/*
+    Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
+
+    Entrada
+    A entrada contém dois valores inteiros representando a hora de início e a hora de fim do jogo.
+
+    Saída
+    Apresente a duração do jogo conforme exemplo abaixo.
+
+/* Variaveis */
+var lines = [ '2 16' ];
+var arr = lines.shift().split( ' ' );
+
+var hInicial = parseInt( arr[ 0 ] );
+var hFinal = parseInt( arr[ 1 ] );
+var hJogadas;
+
+if ( hInicial > hFinal ) console.log( 'O JOGO DUROU ' + ( 24 - ( hInicial - hFinal ) ) + ' HORA(S)' );
+else if ( hFinal > hInicial ) console.log( 'O JOGO DUROU ' + ( hFinal - hInicial ) + ' HORA(S)' );
+else console.log( 'O JOGO DUROU 24 HORA(S)' );
